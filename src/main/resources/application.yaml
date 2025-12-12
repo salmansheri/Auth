@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: Auth
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/authdb
+    username: postgres
+    password: log
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        "[format_sql]": true
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
+      
+      
+      
+
+server:
+  port: 8002
+
+# Database connection
+
