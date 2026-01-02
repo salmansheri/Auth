@@ -2,10 +2,11 @@ spring:
   application:
     name: Auth
 
+# Database connection
   datasource:
     url: jdbc:postgresql://localhost:5432/authdb
     username: postgres
-    password: log
+    password: salman
 
   jpa:
     properties:
